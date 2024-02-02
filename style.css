@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(141, 168, 159);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav > .nav-logo > h1{
+    color: darkred;
+    font-weight: bolder;
+}
+nav > .nav-logo >h1> span{
+    color: blue;
+    backdrop-filter: blur(20px);
+}
+.nav-menu{
+    width: 70%;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+nav > .nav-menu > ul{
+    display: flex;
+}
+nav > .nav-menu > ul > li{
+    list-style-type: none;
+    margin: 0 10px;
+    
+}
+nav > .nav-menu > ul > li > a{
+    text-decoration: none;
+    color: rgb(56, 122, 122);
+    font-weight: bold;    
+}
+nav > .nav-menu > ul > li >a:hover{
+    color: orangered;
+}
+#signup{
+    outline: none;
+    border: none;
+    background-color: rgba(27, 71, 71, 0.897);
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 4px;
+    color: antiquewhite;
+    margin: 2px;
+    transition: all 1s ease-out;
+}
+#signup:hover{
+    background-color: rgb(14, 7, 58);
+    color: orangered;
+}
+#login{
+    outline: none;
+    border: none;
+    background-color: rgba(27, 71, 71, 0.897);
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 4px;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    margin: 2px;
+    transition: all 1s ease-out;
+}
+#login:hover{
+    background-color: rgb(14, 7, 58);
+    color: orangered;
+}
+nav> .nav-button > button:hover{
+    color: royalblue;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+}
+.hero-section > .left >h1{
+    font-size: 35px;
+    line-height: 1.2;
+    color: rgba(3, 3, 70, 0.973);
+    
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.card-list{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 200px 0;
+}
+.img-container{
+    width: 50%;
+    background-image: url('images/scorpion.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position: -10px -10px;
+    border-radius: 10px;
+}
+.card{
+        width: 50%;
+        max-height: 400px;
+        margin: 20px;
+}
+.img-container{
+    width: 400px;
+    height: 300px;
+}
+.bike-img{
+background-image: url('images/Bike.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20px;
+}
+.nfs-img {
+    background-image: url('images/NFS.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20px;
+}
+.zero-img {
+    background-image: url('images/sub-zero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -20px -20px;
+}
+button{
+    background-color: rgba(27, 71, 71, 0.897) ;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    font-family: inherit;
+    transition: all 1s ease-out;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: rgb(14, 7, 58);
+    color: orangered;
+}
+footer{
+    background-color: rgba(27, 71, 71, 0.897) ;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    color: #ffff;
+}
+footer > div{
+    text-align: center;
+}
+form > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+footer > div> form > input{
+    padding: 10px;
+    border-radius: 4px; 
+    outline: none;
+    border: none;
+    margin: 2px;
+    padding: 10px;
+    width: 70%;
+}
+footer > div > form > button {
+    padding: 10px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color:rgb(14, 7, 58);
+}
